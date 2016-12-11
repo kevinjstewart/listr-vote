@@ -4,8 +4,6 @@ import time
 # Initial HTTP config
 conn = http.client.HTTPConnection("www.listr.top")
 
-payload = "{\"id\":\"10768\"}"
-
 headers = {
     'content-type': "application/json",
     }
